@@ -1,0 +1,49 @@
+Psuedo Code Lab#5
+
+fileIO.cpp
+1.) Initialize int count, string temp.
+2.) Open text file with fstream commands.
+3.) if condition for when the file does not exist.
+4.) Within the while loop, where it would stop when it reaches the end of file, we store
+the words from text into temp.
+5.) Declare a string array and int index. Also, open output file.
+6.) while statement for while reading the file. The loop will printout each one in the
+output file.
+7.) close both files.
+
+checkArray.cpp
+1.) Initialize array and array size.
+2.) Initialize result and declare it to checkArraySort with both array and array size.
+3.) To function checkArraySort, with parameters of string arr and int len.
+4.) for loop goes through the array.
+5.) If statements for the condition of ascending, descending, and not sorted.
+6.) if answer is found, it is declared to result.
+7.) if statements to match result, if true, print statement.
+
+searchArray1.cpp
+1.) Open the text file with fstream commands.
+2.) Initialize length and int array.
+3.) for loop to enter data from file to int array.
+4.) Goes through checkArraysort function from exercise #2 to check for order.
+5.) Within if conditon where checkArraysort is true, initialize int key for user input.
+6.) Initialized int index and declare it to binary search function. 
+7.) To binary functiuon, first if statement shows that if first is bigger than second #,
+its an automatic no matching keys(return -1).
+8.) Then use mid to find the middle of the array. Lastly, then to the left and right of mid.
+9.) If array = -1, was not found statement prints. Else, matching index statement prints.
+10.) close file.
+
+searchArray2.cpp
+1.) Open the text file with fstream commands.
+2.) Initialize length and int array.
+3.) for loop to enter data from file to int array.
+4.) Goes through checkArraysort function from exercise #2 to check for order.
+5.) Within if conditon where checkArraysort is true, initialize int key for user input.
+6.) Initialized int index and declare it to binary search function. 
+7.) Then the function runs through the for loop to find index matching key. If found,
+return index. If not, again return -1.
+8.) If array = -1, was not found statement prints. Else, matching index statement prints.
+9.) close file.
+
+
+

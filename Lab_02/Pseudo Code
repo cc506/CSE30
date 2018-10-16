@@ -1,0 +1,41 @@
+Pseudo Code
+
+
+Array1.cpp
+
+1.Initialize the array's varibales including size and the numbers of the array.
+
+2.Print out the size of the arrray. With the input option.
+
+3.Create a if statement in the condition where the size is less or equal to zero, a error
+  statement will appear.
+
+4.Print out the statement to enter the numbers of array by spaces, with input
+ation.
+5. Read elements of array by using for loop, then it is iterated.
+6. If next number is bigger than the current number "This IS an increasing array" prints.
+7. Else, "This is Not an increasing array" prints
+
+Array2.cpp
+1. Initialize character array and string.
+2. Print out statement to enter string, inputed into string variable.
+3. Declare int variable for length of string.
+4. Use strcpy to convert the string within the char array.
+5. for loop goes through the array backwards
+6. String is printed out.
+
+Array3.cpp
+1. Initialize int size and store the user input into the variable.
+2. if statement for size inputs that are out of bounce. If it is, error statement is
+printed.
+3. Initialize 2D array and count.
+4. for loop for the row of the array is done. With my code,it is also used to loop the
+row # in the print statement.
+5. for loop for the column of the array runs. Using the nested loop, values have been
+inputed in to the array.
+6. If condition where if the specific value in the array is negative, count variable is
+added by one.
+7. Outside of the nested loop, the if conditions for the diffrent statements are
+implemented. If the count equals 0, the non-negatives statements prints and vice versa.
+
+Collab: Array2.cpp used the help of StackOverflow

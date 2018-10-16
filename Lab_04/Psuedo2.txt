@@ -1,0 +1,30 @@
+PsuedoCode
+
+combineString
+1. Starting from int main(), I declared both string word and int count.
+2. Then inputs of word and count and its' respective print statments are written.
+3. Call combineStr with parameters word and count.
+4. Going to combineStr method, the parameters are str and int a.
+5. If the count is 0, program ends. Other than that, it continues.
+6. for loop from 0 to count leads it to the next line.
+7. if the i did not reach the end of the count (count), then it would not print out the
+answer.
+8. when reached, program prints out answer. 
+
+sortArray1
+1. sortArr starts running with int arr x (array), int size, and int n (choice). Also, int
+temp is declared.
+2. Nested for loop for the upcoming selection sort.
+3. if statement that has the conditions for ascending order and choice 0 is shown. If meet,
+array will do ascending order.
+4. Another if statement, but this is for descending order and choice 1.
+5. Within both if statements, same selection algorithm is implemented. 
+
+sortArray2
+1. sortArr starts running with int arr x (array), int size, and int n (choice). Also, int
+temp is declared.
+2. for loop for the start of the insertion loop.
+3. Declared temp equals to x[i], also int j equals i-1.
+4. while loops for both conditions and its respective choices are performed.
+5. Within the loops, standard insertion sort rules are applied.
+6. the swap is complete by making x[j+1] = temp.

@@ -1,0 +1,10 @@
+PsuedoCode
+getTimeFromUser
+Input: String of time HH:MM:SS
+Output: True or False
+
+Declare hour minute seconds and colons
+hour minute seconds to char.
+if conditon of valid time 
+(HH: 0 - 23, MM: 0- 59, SS: 0- 59)
+return true or false on condition.

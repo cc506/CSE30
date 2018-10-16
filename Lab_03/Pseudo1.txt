@@ -1,0 +1,39 @@
+Psuedo Code
+
+searchArray1
+1. Initialize array, size, and boolean variable for find entry.
+2. Enter the size of array with input into size.
+3. If statement for size inputs that are not in between 0 - 100 will return error line.
+4. Enter the array through the for loop routing through variable size.
+5. initialize v, and tell user to enter it.
+6. initialize check variable for the amount of checks to 1. (Because there is always at
+least one check in for loop).
+7. Run through 2nd for loop (nested). Leading to if statement that finds the number entry.
+8. if statement that runs through boolean variable. If true, found value is displayed.
+9. If false, not found statement appears.
+10. Another if statement for check's best(=1) and worst (=5) case scnearios.
+
+sortArray1
+1. Initialize array, size, and boolean variable for find entry.
+2. Enter the size of array with input into size.
+3. If statement for size inputs that are not in between 0 - 100 will return error line.
+The difference for this one is that the program exits if it is true.
+4. Initialize temp. Also, Enter the array through the for loop routing through variable 
+size.
+5. Nested for loop for the upcoming selection sort.
+6. Selection sort algorithm for ascending order is inputed.
+7. For loop again, but this time to print out the new version of array.
+8. Print minimum value for traverse of array.
+
+sortArray2
+1. Initialize array, size, and boolean variable for find entry.
+2. Enter the size of array with input into size.
+3. If statement for size inputs that are not in between 0 - 100 will return error line.
+The difference for this one is that the program exits if it is true.
+4. Initialize temp and count. Also, Enter the array through the for loop routing through 
+variable size.
+5. Nested for loop for the upcoming selection sort.
+6. Selection sort algorithm for descending order is inputed.
+7. For loop again, but this time to print out the new version of array.
+8. Print maximum value for traverse of array.
+9. Print the amount of swaps for the array.

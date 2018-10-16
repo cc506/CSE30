@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+
+int main()
+{
+	int array[100], size;
+	bool found = false;
+	cout << "Enter the size of the array: ";
+	cin >> size;
+
+	if(size <= 0 || size > 100){
+	cout << "ERROR: you enetered an incorrect value for the array size \n";
+	}
+
+	cout << "Enter the numbers in the array, separated by a space, and press enter:";
+	for(int i =0; i <}
